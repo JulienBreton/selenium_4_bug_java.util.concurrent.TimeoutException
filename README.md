@@ -10,7 +10,7 @@ mvn test
 
 The test is a loop. The test goes on google.com 2000 times (see https://github.com/SeleniumHQ/selenium/issues/9528#issuecomment-868360126).
 
-In the file https://github.com/JulienBreton/selenium_4_bug_java.util.concurrent.TimeoutException/blob/57f3d7565eeb2fa37aa5c2f640e5c72cbb00e5db/src/test/java/julien/selenium/SeleniumTest.java you can use the parameter invocationCount to run the test many times without to relauch it by yourself.
+In the file https://github.com/JulienBreton/selenium_4_bug_java.util.concurrent.TimeoutException/blob/57f3d7565eeb2fa37aa5c2f640e5c72cbb00e5db/src/test/java/julien/selenium/SeleniumTest.java you can use the parameter invocationCount to run the test many times without to relaunch it by yourself.
 
 In the file https://github.com/JulienBreton/selenium_4_bug_java.util.concurrent.TimeoutException/blob/57f3d7565eeb2fa37aa5c2f640e5c72cbb00e5db/pom.xml you can change testng_firefox.xml by testng_chrome.xml if you want to try with Chrome (same result in my case).
 
