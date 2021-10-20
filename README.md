@@ -25,3 +25,5 @@ On my computer (it is a powerful one) I face the bug oftenly but on a VM with a 
 * If I run Docker on my computer and the maven test on the VM I encounter the bug.
 * If I run Docker on the VM and the maven test on my computer I don't have the bug.
 * If I run Docker on the VM and the maven test on the VM I don't have the bug.
+
+EDIT 20/10 => I have update my VM to 2 CPU and I have encountered the issue. It looks like if more the system can run the test fast more it can have the bug.
